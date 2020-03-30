@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "768011258839",
+    "firebase_url": "https://dblearn2-7c64b.firebaseio.com",
+    "project_id": "dblearn2-7c64b",
+    "storage_bucket": "dblearn2-7c64b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768011258839:android:fbed86f6a6f4aeac",
+        "android_client_info": {
+          "package_name": "com.example.dblearn2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768011258839-3f604ec0tfm9u8vbmksut4dmd5kobe5d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dblearn2",
+            "certificate_hash": "cd4172889212688df490ebe047bb2c77c337b29d"
+          }
+        },
+        {
+          "client_id": "768011258839-sht98nvocrivgncmng91dbuv70f2kiua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVMCbCdciqSE2qmxX96Xws0XPD01yS9Uw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768011258839-sht98nvocrivgncmng91dbuv70f2kiua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

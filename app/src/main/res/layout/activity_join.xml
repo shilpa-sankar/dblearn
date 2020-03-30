@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/join"
+    tools:context=".join">
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="280dp"
+        android:text="join"
+        android:backgroundTint="#6495ED	"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pname2" />
+
+    <EditText
+        android:id="@+id/pname2"
+        android:layout_width="256dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="424dp"
+        android:background="#6495ED"
+        android:hint="Admin name"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/groupnam2" />
+
+    <EditText
+        android:id="@+id/groupnam2"
+        android:layout_width="256dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="561dp"
+        android:foregroundTint="@color/colorAccent"
+        android:hint="Group name"
+        android:background="#6495ED	"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
